@@ -1,4 +1,4 @@
-![alt text]([https://github.com/NoLilypad/AutoLoginTSP/logo.png?raw=true](https://github.com/NoLilypad/AutoLoginTSP/blob/main/logo.png?raw=true))
+![alt text](logo.png)
 
 # AutoLoginTSP
 
