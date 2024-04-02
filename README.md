@@ -23,6 +23,18 @@ Récupérer la dernière mise à jour du script ( *AutoLoginTSP* ) en clonantl l
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
 
+## Comment paramétrer le script ?
+Pour l'instant, une seule configuration est possible concernant l'autoremplissage des identifiants avec un gestionnaire de mots de passe.
+
+- Si idAutocomplete est set sur **false**, le script ne fera rien sur la page du CAS où l'on doit rentrer ses identifiants. Il faudra alors les taper manuellement et taper sur la touche entrée ou cliquer sur *SE CONNECTER* pour continuer le login.
+- Si idAutocomplete est set sur **true**, le script attendra 200 millsecondes qu'un gestionnaire de mot de passe remplisse automatiquement les identifiants du CAS puis cliquera sur valider.
+
 ## Comment ça fonctionne ?
 Le script s'active uniquement si l'URL courante contient les mots clés indiqués avec les balises @include. 
-Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe, puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
+
+Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe (zone main), puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
+
+## Infos utiles
+
+- AutoLoginTSP fonctionne en français et en anglais
+- Le comportement pas défaut 
