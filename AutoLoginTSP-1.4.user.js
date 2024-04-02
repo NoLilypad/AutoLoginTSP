@@ -23,7 +23,7 @@
 //     ==========================
 //     ========Variables=========
 //     ==========================
-const idAutocomplete = true; // Pour utiliser un gestionnaire de mot de passe tiers
+const idAutocomplete = false; // Pour utiliser un gestionnaire de mot de passe tiers
 
 // Target strings pour la détection du site
 const targetSI = "https://si-etudiants.imtbs-tsp.eu/OpDotNet/Noyau/Login.aspx?"; // SI Etudiant
