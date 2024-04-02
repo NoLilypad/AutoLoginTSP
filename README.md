@@ -21,7 +21,9 @@ Tampermonkey est une extension web qui permet d'exécuter des scripts utilisateu
 
 Installation pour [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
-Installation pour [Google Chrome](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+Installation pour [Google Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr) (passe à Firefox)
+
+Installation pour [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) (pareil)
 
 ### Télécharger le script
 Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonantl le repo ou en téléchargeant directement le fichier.
