@@ -21,7 +21,7 @@ Tampermonkey est une extension web qui permet d'exécuter des scripts utilisateu
 
 Installation pour [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
-Installation pour [Google Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr) (passe à Firefox)
+Installation pour [Google Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr) (passe à Firefox vrmt)
 
 Installation pour [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) (pareil)
 
