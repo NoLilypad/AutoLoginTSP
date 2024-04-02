@@ -26,7 +26,7 @@ Installation pour [Google Chrome](https://chromewebstore.google.com/detail/tampe
 Installation pour [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) (pareil)
 
 ### Télécharger le script
-Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonantl le repo ou en téléchargeant directement le fichier.
+Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonant le repo ou en téléchargeant directement le fichier.
 
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
@@ -44,8 +44,8 @@ Quand le script est activé, il détermine ensuite parmis les différentes site 
 
 ## Infos utiles
 
-- AutoLoginTSP fonctionne en français et en anglais
-- Le comportement par défaut suppose qu'un gestionnaire de mots de passe est actif. Voir **Comment installer AutoLoginTSP** pour le modifier.
+- AutoLoginTSP fonctionne pour les sites en français et en anglais
+- Le comportement par défaut suppose qu'il n'y a ***pas de gestionnaire de mot de passe actif***. Voir **Comment installer AutoLoginTSP** pour le modifier.
 
 ## Remarques
 
