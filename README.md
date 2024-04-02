@@ -18,7 +18,7 @@ Installation pour [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampe
 Installation pour [Google Chrome](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
 ### Télécharger le script
-Récupérer la dernière mise à jour du script ( *AutoLoginTSP* ) en clonantl le repo ou en téléchargeant directement le fichier
+Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonantl le repo ou en téléchargeant directement le fichier
 
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
