@@ -48,4 +48,4 @@ Quand le script est activé, il détermine ensuite parmis les différentes site 
 ## Remarques
 
 - Oui le script est probablement très peu optimisé, bodgé et pas écrit dans les rêgles de l'art mais l'idée est d'avoir un système qui fonctionne sans tout réapprendre (merci GPT et Gemini). Si vous avez des idées ou repéré des bugs/erreurs flagrantes n'hésitez pas à le faire circuler !
-- Oui le README est plus long que le script, je fais ce que je veux c'est mon repo.
+- Oui le README est plus long que le script, je fais ce que je veux c'est mon repo 💅
