@@ -10,7 +10,7 @@ Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en lig
 
 ## Qu'est ce que AutoLoginTSP ?
 
-AutoLoginTSP est un script conçut pour le plugin [Tampermonkey](https://www.tampermonkey.net/) pour se logger facilement sur Ecampus, Moodle ou le SI Etudiant sans devoir cliquer sur les liens et pages différents pour chaques services, sans avoir besoin d'un gros bagage technique.
+AutoLoginTSP est un script conçut pour le plugin [Tampermonkey](https://www.tampermonkey.net/) pour se logger facilement sur Ecampus, Moodle ou le SI Etudiant sans devoir cliquer sur les liens et pages différents pour chaques services et sans avoir besoin d'un gros bagage technique.
 
 Je l'ai écrit en vitesse en ayant marre de cliquer cinq fois pour acceder à un service, il permet en moyenne d'économier 4 secondes par rapport à un login manuel 🤓. 
 
