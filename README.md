@@ -5,7 +5,7 @@
 Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en ligne du campus TSP
 
 
-![alt text](logo.png)
+![alt text](logo.png)  ![alt text](logo_TSP.png)
 
 
 ## Qu'est ce que AutoLoginTSP ?
