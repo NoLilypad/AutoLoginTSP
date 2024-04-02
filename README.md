@@ -23,4 +23,6 @@ Récupérer la dernière mise à jour du script ( *AutoLoginTSP* ) en clonantl l
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
 
-
+## Comment ça fonctionne ?
+Le script s'active uniquement si l'URL courante contient les mots clés indiqués avec les balises @include. 
+Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe, puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
