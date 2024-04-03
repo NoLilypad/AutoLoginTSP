@@ -43,6 +43,14 @@ Le script s'active uniquement si l'URL courante contient les mots clés indiqué
 
 Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe (zone main), puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
 
+## Comment ajouter un site de login ? (dev)
+
+- Ajouter une balise `// @include` avec l'URL de site pour que le script s'active sur le site donné. Utiliser `*` comme wildcard pour plusieurs sites ou si l'URL change. 
+- Ajouter dans la section main la détection du site avec un `else if`, et ajouter une target string pour la détection du site.
+- Créer un stratégie de login en cliquant sur un bouton ou en redirigeant directement. ChatGPT ou  Gemini sont des bons outils pour déterminer quel bouton cliquer en fournissant le code source de la page. Garder la structure`try {} catch{}` .
+
+N'hésitez pas à partager votre fork s'il peut servir à d'autres !
+
 ## Infos utiles
 
 - AutoLoginTSP fonctionne pour les sites en français et en anglais
