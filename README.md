@@ -15,7 +15,7 @@ AutoLoginTSP est un script conçut pour le plugin [Tampermonkey](https://www.tam
 Je l'ai écrit en vitesse en ayant marre de cliquer cinq fois pour acceder à un service, il permet en moyenne d'économiser 4 secondes par rapport à un login manuel 🤓. 
 
 
-## Comment installer AutologinTSP ?
+## Comment installer AutoLoginTSP ?
 ### Installer Tampermonkey 
 Tampermonkey est une extension web qui permet d'exécuter des scripts utilisateur sur des pages web, pour en modifier le contenu et le comportement. 
 
