@@ -26,7 +26,7 @@ Tampermonkey est une extension web qui permet d'exécuter des scripts utilisateu
 - Installation pour [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) (pareil)
 
 ### Télécharger le script
-Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonant le repo ou en téléchargeant directement le fichier en cliquant sur le fichier puis sur *raw*.
+Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.Y.user.js* ) en clonant le repo ou en téléchargeant directement le fichier en cliquant sur le fichier puis sur *raw*.
 
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
