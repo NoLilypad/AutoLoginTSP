@@ -26,7 +26,7 @@ Installation pour [Google Chrome](https://chromewebstore.google.com/detail/tampe
 Installation pour [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) (pareil)
 
 ### Télécharger le script
-Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonant le repo ou en téléchargeant directement le fichier.
+Récupérer la dernière mise à jour du script ( *AutoLoginTSP-1.X.user.js* ) en clonant le repo ou en téléchargeant directement le fichier en cliquant sur le fichier puis sur *raw*.
 
 ### Installer le script
 Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and drop le fichier .js . Le script est alors ajouté ou mis à jour. 
