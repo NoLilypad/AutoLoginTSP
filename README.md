@@ -14,6 +14,13 @@ AutoLoginTSP est un script conçut pour le plugin [Tampermonkey](https://www.tam
 
 Je l'ai écrit en vitesse en ayant marre de cliquer cinq fois pour acceder à un service, il permet en moyenne d'économiser 4 secondes par rapport à un login manuel 🤓. 
 
+## Sur quels sites fonctionne AutoLoginTSP ?
+Pour l'instant, les sites pris en charge nativement sont :
+- [eCampus](https://ecampus.imtbs-tsp.eu/)
+- [Moodle](https://moodle.imtbs-tsp.eu/)
+- [SI Etudiant](https://si-etudiants.imtbs-tsp.eu/)
+- [Gitlab](https://gitlabens.imtbs-tsp.eu/)
+
 
 ## Comment installer AutoLoginTSP ?
 ### Installer Tampermonkey 
