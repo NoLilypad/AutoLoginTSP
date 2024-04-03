@@ -53,7 +53,7 @@ N'hésitez pas à partager votre fork s'il peut servir à d'autres !
 ## Infos utiles
 
 - AutoLoginTSP fonctionne pour les sites en français et en anglais
-- Le comportement par défaut suppose qu'il n'y a ***pas de gestionnaire de mot de passe actif***. Voir **Comment installer AutoLoginTSP** pour le modifier.
+- Le comportement par défaut suppose qu'il n'y a ***pas de gestionnaire de mot de passe actif***. Voir **Comment paramétrer le script ?** pour le modifier.
 
 ## Remarques
 
