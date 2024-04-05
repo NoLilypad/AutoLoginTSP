@@ -42,7 +42,7 @@ Ouvrir le *Tableau de bord* en cliquant sur le logo de l'extension puis drag and
 ## Comment paramétrer le script ?
 Pour l'instant, une seule configuration est possible concernant l'autoremplissage des identifiants avec un gestionnaire de mots de passe.
 
-- Si idAutocomplete est set sur `false`, le script ne fera rien sur la page du CAS où l'on doit rentrer ses identifiants. Il faudra alors les taper manuellement et taper sur la touche entrée ou cliquer sur *SE CONNECTER* pour continuer le login. C'est pour l'instant le comportement par défaut.
+- Si idAutocomplete est set sur `false`, le script ne fera rien sur la page du CAS ou de Zimbra où l'on doit rentrer ses identifiants. Il faudra alors les taper manuellement et taper sur la touche entrée ou cliquer sur le bouton de connexion pour continuer le login. C'est pour l'instant le comportement par défaut.
 - Si idAutocomplete est set sur `true`, le script attendra 200 millsecondes qu'un gestionnaire de mot de passe remplisse automatiquement les identifiants du CAS puis cliquera sur valider.
 
 ## Comment ça fonctionne ?
