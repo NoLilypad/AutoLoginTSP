@@ -20,6 +20,7 @@ Pour l'instant, les sites pris en charge nativement sont :
 - [Moodle](https://moodle.imtbs-tsp.eu/)
 - [SI Etudiant](https://si-etudiants.imtbs-tsp.eu/)
 - [Gitlab](https://gitlabens.imtbs-tsp.eu/)
+- [Messagerie Zimbra](https://z.imt.fr/)
 
 
 ## Comment installer AutoLoginTSP ?
