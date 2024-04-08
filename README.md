@@ -62,7 +62,8 @@ N'hésitez pas à partager votre fork s'il peut servir à d'autres !
 
 - AutoLoginTSP fonctionne pour les sites en français et en anglais;
 - Le comportement par défaut suppose qu'il n'y a ***pas de gestionnaire de mot de passe actif***. Voir **Comment paramétrer le script ?** pour le modifier;
-- Le script peut exceptionnellement reload certaines pages Moodle qui ont certaines target string dans leur code source ("Connexion" par exemple). Si c'est le cas, le meilleur est de désactiver le script ou Tampermonkey le temps de la visite du site et de faire remonter le problème;
+- Le script peut exceptionnellement reload certaines pages Moodle (certains quizz par exemple) qui ont certaines target string dans leur code source ("Connexion" par exemple). Si c'est le cas, le meilleur est de désactiver le script ou Tampermonkey le temps de la visite du site et de faire remonter le problème;
+
 
 ## Remarques
 
