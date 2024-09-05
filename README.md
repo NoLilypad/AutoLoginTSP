@@ -7,6 +7,11 @@ Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en lig
 
 ![alt text](logo.png)  ![alt text](logo_TSP.png)
 
+## Recent Update
+
+- Prise en charge du Moodle IP Paris
+- Prise en charge de l'ancien Moodle IMTBS-TSP version 2023
+
 
 ## Qu'est ce que AutoLoginTSP ?
 
@@ -17,7 +22,8 @@ Je l'ai écrit en vitesse en ayant marre de cliquer cinq fois pour acceder à un
 ## Sur quels sites fonctionne AutoLoginTSP ?
 Pour l'instant, les sites pris en charge nativement sont :
 - [eCampus](https://ecampus.imtbs-tsp.eu/)
-- [Moodle](https://moodle.imtbs-tsp.eu/)
+- [Moodle IP Paris](https://moodle.ip-paris.fr)
+- [Moodle IMTBS-TSP 2023](https://moodle2023.imtbs-tsp.eu/)
 - [SI Etudiant](https://si-etudiants.imtbs-tsp.eu/)
 - [Gitlab](https://gitlabens.imtbs-tsp.eu/)
 - [Messagerie Zimbra](https://z.imt.fr/)
