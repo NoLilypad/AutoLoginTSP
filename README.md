@@ -11,6 +11,7 @@ Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en lig
 
 - Prise en charge du Moodle IP Paris
 - Prise en charge de l'ancien Moodle IMTBS-TSP version 2023
+- Prise en charge du sites des Impresssions
 
 
 ## Qu'est ce que AutoLoginTSP ?
@@ -27,6 +28,7 @@ Pour l'instant, les sites pris en charge nativement sont :
 - [SI Etudiant](https://si-etudiants.imtbs-tsp.eu/)
 - [Gitlab](https://gitlabens.imtbs-tsp.eu/)
 - [Messagerie Zimbra](https://z.imt.fr/)
+- [Impressions](https://followme.imtbs-tsp.eu)
 
 
 ## Comment installer AutoLoginTSP ?
