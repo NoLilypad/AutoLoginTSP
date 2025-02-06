@@ -265,7 +265,6 @@ const SERVICES = [
         }
         catch(e){}
     }
-<<<<<<< HEAD
   },
 
   { // Déclic Minet
@@ -282,8 +281,6 @@ const SERVICES = [
       }
       catch(e) {}
     }
-=======
->>>>>>> 203948376f366c554fc389544f91653145c436f1
   }
 
  
