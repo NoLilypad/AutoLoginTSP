@@ -9,6 +9,7 @@ Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en lig
 
 ## Recent Update
 
+- Prise en charge de GitlabENSE
 - Prise en charge du Moodle IP Paris
 - Prise en charge de l'ancien Moodle IMTBS-TSP version 2023
 - Prise en charge du sites des Impresssions
@@ -26,7 +27,8 @@ Pour l'instant, les sites pris en charge nativement sont :
 - [Moodle IP Paris](https://moodle.ip-paris.fr)
 - [Moodle IMTBS-TSP 2023](https://moodle2023.imtbs-tsp.eu/)
 - [SI Etudiant](https://si-etudiants.imtbs-tsp.eu/)
-- [Gitlab](https://gitlabens.imtbs-tsp.eu/)
+- [Gitlabens](https://gitlabens.imtbs-tsp.eu/)
+- [Gitlabense](https://gitlabense.imtbs-tsp.eu/)
 - [Messagerie Zimbra](https://z.imt.fr/)
 - [Impressions](https://followme.imtbs-tsp.eu)
 
