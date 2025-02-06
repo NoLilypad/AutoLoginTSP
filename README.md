@@ -9,6 +9,7 @@ Un script Tampermonkey simple pour s'enregistrer plus vite sur les outils en lig
 
 ## Recent Update
 
+- Passage à la 2.0
 - Prise en charge de GitlabENSE
 - Prise en charge du Moodle IP Paris
 - Prise en charge de l'ancien Moodle IMTBS-TSP version 2023
@@ -58,20 +59,26 @@ Pour l'instant, une seule configuration est possible concernant l'autoremplissag
 ## Comment ça fonctionne ?
 Le script s'active uniquement si l'URL courante contient les mots clés indiqués avec les balises @include. 
 
-Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe (zone main), puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
+Quand le script est activé, il détermine ensuite parmis les différentes site d'activation sur lequel il se situe, puis met en place la stratégie d'autologin adaptée (une fonction spécifique à chaque site).
 
 ## Comment ajouter un site de login ? (dev)
 
-- Ajouter une balise `// @include` avec l'URL de site pour que le script s'active sur le site donné. Utiliser `*` comme wildcard pour plusieurs sites ou si l'URL change. 
-- Ajouter dans la section main la détection du site avec un `else if`, et ajouter une target string pour la détection du site.
-- Créer un stratégie de login en cliquant sur un bouton ou en redirigeant directement. ChatGPT ou  Gemini sont des bons outils pour déterminer quel bouton cliquer en fournissant le code source de la page. Garder la structure`try {} catch{}` .
+1. Ajouterl'URL du service en début de script avec la balise @include
+2. Ajouter un objet dans SERVICES avec :
+      - name                : nom du service (pour le logging)
+      - urlPatterns         : liste des URLs du service
+      - urlExclude          : liste de string dans l'URL qui bloquent le login automatique
+      - strategy            : Fonction à exécuter pour login
+      - contentCheck        : Texte requis dans la page pour login
+      - needsAutocomplete   : Si le login nécessite l'autocomplétion des identifiants
+
 
 N'hésitez pas à partager votre fork s'il peut servir à d'autres !
 
 ## Infos utiles
 
-- AutoLoginTSP fonctionne pour les sites en français et en anglais;
-- Le comportement par défaut suppose qu'il n'y a ***pas de gestionnaire de mot de passe actif***. Voir **Comment paramétrer le script ?** pour le modifier;
+- AutoLoginTSP fonctionne pour moodle en français et en anglais;
+- Le comportement par défaut suppose qu'il y a ***un gestionnaire de mot de passe actif***. Modifier la section SETTINGS pour changer ce comportement;
 - Le script peut exceptionnellement reload certaines pages Moodle (certains quizz par exemple) qui ont certaines target string dans leur code source ("Connexion" par exemple). Si c'est le cas, le meilleur est de désactiver le script ou Tampermonkey le temps de la visite du site et de faire remonter le problème;
 
 
