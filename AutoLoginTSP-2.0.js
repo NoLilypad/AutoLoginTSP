@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         AutoLoginTSP NEW
+// @name         AutoLoginTSP
 // @namespace    https://github.com/NoLilypad/AutoLoginTSP/
 // @version      2.0
 // @description  Autologin sur les services TSP
@@ -18,6 +18,7 @@
 // @include      *moodle.ip-paris.fr*
 // @include      *moodle2023.imtbs-tsp.eu*
 // @include      *followme.imtbs-tsp.eu/user
+// @include      *declic.minet.net*
 
 // @icon          data:image/png;base64,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
 // @grant        none
@@ -73,6 +74,7 @@ const SERVICES = [
     needsAutocomplete: false,
     strategy: () => {
       try {
+        // Exemple de fonction d'autologin-
         document.querySelector('input[type="submit"][value="Bouton à cliquer"]').click();
       }
       catch(e) {}
@@ -273,7 +275,9 @@ const SERVICES = [
     needsAutocomplete: true,
     strategy: () => {
       try {
-        document.querySelector('input.button.button--block').click();
+        setTimeout(() => {
+          document.querySelector('input[type="submit"][value="Se connecter"]').click();
+        }, SETTINGS.TIMEOUT_DURATION + 100);
       }
       catch(e) {}
     }
@@ -301,8 +305,6 @@ const SERVICES = [
     const urlExcludeCheck = !service.urlExclude.some(pattern =>
       currentUrl.includes(pattern)
     );
-
-      console.log("eee " + urlExcludeCheck);
 
     const contentMatch = pageContent.includes(service.contentCheck);
     const autocompleteCheck = SETTINGS.ID_AUTOCOMPLETE;
