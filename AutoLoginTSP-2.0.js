@@ -263,21 +263,9 @@ const SERVICES = [
         }
         catch(e){}
     }
-  },
-
-  { // Déclic Minet
-    name: "Déclic Minet",
-    urlPatterns: ["declic.minet.net"],
-    urlExclude: [],
-    contentCheck: "",
-    needsAutocomplete: true,
-    strategy: () => {
-      try {
-        document.querySelector('input.button.button--block').click();
-      }
-      catch(e) {}
-    }
   }
+
+ 
 ];
 
 // #######################################################
