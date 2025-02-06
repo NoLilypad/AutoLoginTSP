@@ -50,7 +50,7 @@ const SETTINGS = {
 /*
    Pour ajouter un service :
    1. Ajouterl'URL du service en début de script avec la balise @include
-   . Ajouter un objet dans SERVICES avec :
+   2. Ajouter un objet dans SERVICES avec :
       - name                : nom du service (pour le logging)
       - urlPatterns         : liste des URLs du service
       - urlExclude          : liste de string dans l'URL qui bloquent le login automatique
